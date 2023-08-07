@@ -1,0 +1,49 @@
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 600;
+  color: #ff0b37;
+}
+
+.form-con {
+  width: 40%;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin-top: 15px;
+}
+
+.inputs-cons {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-name {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.inputs {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  width: 100px;
+  height: 30px;
+  background-color: #ea580c;
+  color: #fef2f4;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
